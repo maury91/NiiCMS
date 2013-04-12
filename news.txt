@@ -1,0 +1,138 @@
+versione 0.6.1
+
++ Supporto Gzip e Deflate
+
++ Aggiunto controllo di persistenza (menu)
+
++ Nuova grafica
+	+ Stile windows sette
+	+ Gestione dimensioni
+
++ Media Manager
+	+ Click per selezionare
+	+ Regge i tasti CTRL
+	+ Funziona con il nuovo gestore NiiWin
+	+ Possono esserne aperti più di uno senza andare in conflitto
+
++ Kernel
+	+ Sostituito mysql_escape_string con mysql_real_escape_string
+
++ Astrazione di alcuni elementi del pannello di controllo visuale
+
++ Astrazione lettura/scrittura file di configurazione
+
++ Auto riparazione di file di configurazione compromessi
+
++ Configurazione privilegi
+	+ File di gestione dei privilegi
+	+ Gestione dei privilegi
+		+ Visualizzare i privilegi
+		+ Modificare i privilegi
+	
++ Mostrare solo le icone delle aree accessibili a quel gruppo
+
++ Tasto "Visualizza sito"
+
+- Nuova gestione database
+	- Insert 
+		$riga = $database->tabella->new;
+		$riga.colonna = "var";
+		$riga.save
+	- Read
+		$database->tabella->find(id,[colonna],[mode : case_sensitive,expression])
+	- Update
+		$riga = $database->tabella.find(id);
+		$riga.colonna = "var";
+		$riga.save;
+	- Delete
+		$riga = $database->tabella.find(id);
+		$riga.delete;
+
+- Nuovo gestore estensioni
+	+ Nuovo sistema di communicazione del NiiService basato sul JSON
+	+ Nuovo sistema di login al NiiService, logout automatico quando si deve aggiungere un nuovo sito
+	- Scheda Estensioni
+	- NiiService anche offline
+	- NiiService diviso in
+		+ Home page
+		- Installate
+		- Categorie
+		- Ricerca
+	- Albero dipendenze
+
+- Risolvere BUG del media-manager che sta dietro al ckeditor e che sta in / invece di media/
+	
+- Gestione apertura pagine
+	- Sblocco di emergenza
+	- Sola lettura
+
+- Grafica secondaria pannello di controllo
+
+- Introdotte 4 modalità di amministrazione
+	- Modalità Desktop/Tabs
+	- Modalità Live Edit
+	- Modalità Live Theme Edit
+	- Modalità Easy
+
+- Aggiunto il file easy.inc ai componenti
+
+- Menu estendibili fino a 10 super categorie
+	- Gestione dei menu dal template
+		- Retrocompatibilità
+		
+- Gestione menu semplificata
+
+- Doppio database/ doppia tabella per gli utenti amministrativi
+	- Login secondario per la modalità amministrativa
+
+- Moduli per le pagine
+	- Opzioni extra per i moduli
+
+- NiiService per i sub-addons
+	- Funzioni per gli svilluppatori
+	- Amministrazione dal NiiService
+
+
+versione 0.6.2
+
+
+- Login
+	- Login via post
+	- Hashing della password in javascript
+
+- Gestioni privilegi
+	- Creare nuovi gruppi
+	- Le estensioni possono creare nuovi privilegi
+		- Funzione creazione nuovi privilegio
+		- Funzione controllo privilegio
+
+- Pagina 404 e 405 personalizzabili
+
+- Live Edit
+	- Modifica logo in live edit
+	- Moduli configurabili in maniera speciale
+	- Ordinamento menu visuale
+
+- Pannello Amministrativo
+	- Inserire altri contenuti nel desktop
+		- Spostare pagine sul desktop
+		- Spostare estensioni configurabili sul desktop
+	
+- Sistema anti-propogazione compromissione
+	
+- Menu
+	- Gestione Sub-menus
+
+- Pagine
+	- Modifica/Aggiunta degli og:type
+	
+- NiiCMS mobile
+	- Admin
+		- Pannello
+		- Impostazioni globali
+		- Componenti
+		- Menu
+		- Plug-in
+		- Template
+		- Pagine
+		- Utenti

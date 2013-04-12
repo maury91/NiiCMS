@@ -1,0 +1,13 @@
+﻿<template>
+	<creator>Maurizio Carboni and Total</creator>
+	<name>New Yudow</name>
+	<version>1.0</version>
+	<site>http://niicms.net</site>
+	<description>
+		<default>Template yudow, ha un solo menu sulla destra, modificato per essere più al passo con i tempi</default>
+	</description>
+	<image>
+		<small>small.png</small>
+		<big>big.jpg</big>
+	</image>
+</template>

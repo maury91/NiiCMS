@@ -1,0 +1,14 @@
+<template>
+	<creator>Maurizio Carboni</creator>
+	<name>Classic [Mobile]</name>
+	<version>1.0</version>
+	<mobile>Y</mobile>
+	<site>http://niicms.net</site>
+	<description>
+		<default>Template classico di NiiCMS per cellulare</default>
+	</description>
+	<image>
+		<small>small.png</small>
+		<big>big.jpg</big>
+	</image>
+</template>

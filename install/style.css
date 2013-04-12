@@ -1,0 +1,22 @@
+body {
+	background: #000000 url("main_bg.gif") 0 0 repeat-x;
+  margin: 0px;
+  padding: 0;
+  text-align: left;
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+  color: #999999;
+}
+.on {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background : url("on.png") no-repeat;
+	margin : 0 15px;
+}
+.off {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background : url("off.png") no-repeat;
+	margin : 0 15px;
+}

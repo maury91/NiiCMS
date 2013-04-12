@@ -1,0 +1,65 @@
+html, body {
+/*   background: #000000; */
+  background: #000000 url("main_bg.gif") 0 0 repeat-x;
+  margin: 0px;
+  padding: 0;
+  text-align: left;
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+  color: #999999;
+}
+
+a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #20FF00 ;
+}
+
+a:hover {
+  color: #5588aa;
+}
+.itemt {
+	margin : 10px 10px;
+	display:inline-block;
+}
+.button {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #000000;
+	height : 20px;
+	border : 1px solid #20FF00;
+	margin-top : 2px;
+}
+
+.slimButton {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #000000;
+	height : 16px;
+	border : 1px solid #20FF00;
+}
+
+.textbox {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #1A1A1A;
+	border : 1px solid #20FF00;
+}
+
+text {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #1A1A1A;
+	border : 1px solid #20FF00;
+}
+
+.slimTextbox {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #1A1A1A;
+	height : 16px;
+	border : 1px solid #20FF00;
+}

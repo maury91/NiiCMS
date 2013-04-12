@@ -1,0 +1,1 @@
+<?php$__level = array(0 => 'Founder',1 => 'SuperAdmin', 2=>'Admin',3 => 'HalfAdmin',4 => 'Moderator', 9 => 'Registered User', 10 => 'Guest', 11 => 'Guest Only',"-1" => 'Invisible');?>

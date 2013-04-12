@@ -1,0 +1,1 @@
+<?php$__datab = 'Gestione Database';$__name = 'Nome';$__engine = 'Motore';$__row = 'Righe';$__siz = 'Dimesione';$__col = 'Codifica';$__empty = 'Tabella Vuota';$__exec = 'Esegui Query';$__exe = 'Esegui';$__res = 'La query &egrave; stata eseguita';$__insert = 'Inserisci nuovo';$__d_dwn = 'Scarica un backup della tabella';$__edit = 'Modifica';$__ins = 'Inserisci';?>

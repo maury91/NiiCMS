@@ -1,0 +1,144 @@
+.smallwindow {
+	width: 400px;
+	height: 300px;
+	margin-left: -200px;
+	margin-top: -150px;
+	z-index:25;
+}
+.mod_opz {
+	display:none;
+}
+.live_link_edit {
+	visibility: hidden;
+	width: 16px!important;
+	height: 16px!important;
+	padding: 0!important;
+	margin: 0!important;
+	position: relative!important;
+	margin-left: -16px!important;
+	float:right!important;	
+}	
+.live_page_edit {
+	margin-top: 16px !important;
+	left: 0% !important;
+	margin-left: -48px !important;
+	z-index:1000;
+}
+.live_menu_edit {
+	margin-top: 16px !important;
+	margin-bottom: -16px !important;
+}
+.live-elems-list {
+	height: 230px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.live-elem-img {
+	width: 200px;
+	height: 133px;
+	display: block;
+	margin: 20px;
+	position: relative;
+}
+.live-elem-title {
+	font-weight: 900;
+}
+.live-elem {
+	width: 240px;
+	height: 200px;
+	display: inline-block;
+	background-color: #EEE;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.live-elem:hover {
+	background-color: #EED;
+}
+.live-elem-choose {
+	background-color: #DBB;
+}
+.live-elem-choose:hover {
+	background-color: #DCC;
+}
+.live-elems-list::-webkit-scrollbar {
+	width: 10px;
+}
+.live-elems-list::-webkit-scrollbar-track {
+	background: #DDD;
+}
+.live-elems-list::-webkit-scrollbar-thumb {
+	background: rgba(148,195,235,0.9);
+}
+.live-elems-list::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(150,150,150,0.9); 
+}
+#link-del, #menu-del { display:none; }
+fieldset label, fieldset input, fieldset textarea { display:block; }
+fieldset input.text,fieldset select.text, fieldset textarea.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset textarea.text { height:100px }
+fieldset { padding:0; border:0; margin-top:25px; text-align:left; }
+.cmslivenewelem{
+	-moz-background-size:100%;
+	background:url(images/live/nii_add.png);
+	background-size:100%;
+}
+.cmslivehtml{
+	-moz-background-size:100%;
+	background:url(images/live/html.png);
+	background-size:100%;
+}
+.cmslivemhtml{
+	-moz-background-size:100%;
+	background:url(images/live/mhtml.png);
+	background-size:100%;
+}
+.cmslivesimple{
+	-moz-background-size:100%;
+	background:url(images/live/simple.png);
+	background-size:100%;
+}
+.cmslivemsimple{
+	-moz-background-size:100%;
+	background:url(images/live/msimple.png);
+	background-size:100%;
+}
+.cmslivephp{
+	-moz-background-size:100%;
+	background:url(images/live/php.png);
+	background-size:100%;
+}
+.cmslivelink{
+	-moz-background-size:100%;
+	background:url(images/live/link.png);
+	background-size:100%;
+}
+.ghost{
+	visibility:hidden;
+}
+.popupmenu {
+	position:absolute;
+}
+.bak-button {
+	width: 90%;
+	height: 30px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.live-loader {
+	left:50%;
+	top:50%;
+	margin-left:-16px;
+	margin-top:-16px;
+	position:absolute;
+}
+/*.ui-dialog-content h2{
+	font-size: 16px!important;
+}
+.ui-widget {
+	font-size: 11px!important;
+	text-align: center!important;
+}*/

@@ -1,0 +1,331 @@
+#nii .niiWinContent {
+	padding: 0;
+}
+.NiiService {
+	height: 100%;
+	width:100%;
+	display:table;
+}
+.NiiService .NiiBar {
+	height: 6em;
+	background: rgb(247,251,252);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1)));
+	background: -webkit-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: linear-gradient(to bottom, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 );
+	display: table-row;
+	width:100%;
+}
+.NiiService .NiiContent {
+	display: table-row;
+	height: 100%;
+	width:100%;
+	
+}
+.NiiService .NiiBar span {
+	display: block;
+	float: left;
+	margin: 1em;
+	height: 4em;
+	width: 4em;
+	background-size: 100%;
+	opacity:1;
+	cursor:pointer;
+}
+.NiiService .NiiBar .NiiSep {
+	width: 1em;
+}
+.NiiService .NiiBar span:hover {
+	opacity:0.7;
+}
+.NiiService .NiiBar span.inactive {
+	opacity:0.3;
+	cursor: default;
+}
+.NiiService .NiiBar .NiiPrev {
+	background-image: url(images/service/aleft.png);
+}
+.NiiService .NiiBar .NiiNext {
+	background-image: url(images/service/aright.png);
+}
+.NiiService .NiiBar .NiiSearch {
+	background-image: url(images/service/search.png);
+	background-size: 1.6em;
+	height: 1.8em;
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	border: 1px solid #CCC;
+	margin-top: 1em;
+	padding: 0;
+	width: 20%;
+	float: right;
+	margin-right: 1em;
+	padding-right: 1.6em;
+}
+.NiiService .NiiBar .NiiButton {
+	border-left: 1px solid #BBB;
+	margin: 0em 1em;
+	width: 6em;
+	border-right: 1px solid #BBB;
+	padding-top: 3.5em;
+	height: 1em;
+	padding-bottom: 0.5em;
+	font-size: 1.2em;
+	text-align: center;
+	color: #555;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: 50% 5%;
+}
+.NiiService .NiiBar .NiiButton.selected {
+	background-color: rgba(180, 80, 120, 0.15);
+}
+.NiiService .NiiBar .NiiButton:hover {
+	color: #EEE;
+}
+.NiiService .NiiBar .NiiButton.NiiHome {
+	background-image: url(images/service/nii.png);
+}
+.NiiService .NiiBar .NiiButton.NiiState {
+	background-image: url(images/service/bar.png);
+}
+.NiiService .NiiBar .NiiButton.NiiInstalled {
+	background-image: url(images/service/inst.png);
+}
+.NiiService .NiiContent .NiiHome {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.NiiService .NiiContent .NiiContentLoad {
+	display: table-cell;	
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size:1.2em;
+}
+.NiiService .NiiContent .NiiContentLoad  .NiiScroll {
+	height:100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 1em;
+}
+.NiiService .NiiContent .NiiSideBar {
+	width: 22em;
+	height: 98.6%;
+	margin-top: 0.5%;
+	border-right: 1px solid #AAA;
+	display: table-cell;
+	background: rgb(238,238,238);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+	position: relative;
+}
+.NiiService .NiiContent .NiiSideBar ul {
+	margin: 0;
+	padding: 0;
+	padding-top:1em;
+	position: absolute;
+	width: 100%;
+}
+.NiiService .NiiContent .NiiSideBar li {
+	display: block;
+	font-size: 1.3em;
+	padding: 0.5em;
+	padding-left: 3em;
+	background-size: 1.7em;
+	background-repeat: no-repeat;
+	background-position: 0.5em;
+	border-bottom: 1px solid #CCC;
+	cursor: pointer;
+	color: #444;
+}
+.NiiService .NiiContent .NiiSideBar ul li:first-child {
+	border-top: 1px solid #CCC;
+}
+.NiiService .NiiContent .NiiSideBar li:hover {
+	background-color: rgba(80,80,180,0.1);
+	color: #FFF;
+}
+.NiiService .NiiContent .NiiSideBar li.selected {
+	background-color: rgba(70,70,70,0.1);
+}
+.NiiSidebar li.com {
+	background-image: url(../admin/images/com.png);
+}
+.NiiSidebar li.mod {
+	background-image: url(../admin/images/mod.png);
+}
+.NiiSidebar li.tem {
+	background-image: url(../admin/images/tem.png);
+}
+.NiiSidebar li.plg {
+	background-image: url(../admin/images/plg.png);
+}
+.NiiSidebar li.edt {
+	background-image: url(../admin/images/edt.png);
+}
+.NiiService .NiiContent .NiiContentLoad iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiGroup {
+	clear: both;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiGroup p {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt {
+	width: 20em;
+	height: 6em;
+	float: left;
+	border: 1px solid #EEE;
+	border-radius: 0.5em;
+	position: relative;
+	cursor:pointer;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiImg {
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	width: 5em;
+	height: 5em;
+	background-size: 4.9em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #333;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiTitle {
+	position: absolute;
+	left: 5.45em;
+	top: 0.45em;
+	font-size: 1.1em;
+	font-weight: bold;
+	width:12.5em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiTitle i {
+	position: absolute;
+	right: 0.5em;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.65em;
+	top : 2.5em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiType {
+	position: absolute;
+	left: 6em;
+	top: 2em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiPrice {
+	position: absolute;
+	left: 6em;
+	top: 4em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExt .NiiStars {
+	position: absolute;
+	right: 0.5em;
+	bottom: 0.5em;
+	overflow: hidden;
+}
+.NiiStars .NiiStar {
+	width: 1.3em;
+	height: 1.3em;
+	display: block;
+	float: left;
+	background-size: 100%;
+	-moz-background-size: 100%;
+}
+.NiiStars .NiiStar.on {
+	background-image: url(images/service/star_on.png);
+}
+.NiiStars .NiiStar.off {
+	background-image: url(images/service/star_off.png);
+}
+.NiiService .NiiContent .NiiContentLoad .NiiScroll::-webkit-scrollbar {
+	width: 1em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiScroll::-webkit-scrollbar-track {
+	background: #DDD;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiScroll::-webkit-scrollbar-thumb {
+	background: rgba(148,195,235,0.9);
+}
+.NiiService .NiiContent .NiiContentLoad .NiiScroll::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(150,150,150,0.9); 
+}
+.NiiService .NiiContent .NiiContentLoad  .NiiExtHead .NiiTitle {
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+.NiiService .NiiContent .NiiContentLoad  .NiiExtHead .NiiTitle i {
+	font-style: normal;
+	font-weight: normal;
+	margin-left: 2em;
+	font-size: 0.6em;
+}
+.NiiService .NiiContent .NiiContentLoad  .NiiExtHead .NiiImg {
+	display: block;
+	float: left;
+	width: 6em;
+	height: 6em;
+	margin-right: 0.5em;
+	background-size: 5.9em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #333;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiExtHead .NiiStars {
+	overflow: hidden;
+	margin-bottom: 0.6em;
+	margin-top: 0.1em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiDesc {
+	clear: both;
+	margin-top: 1em;
+	
+}
+.NiiService .NiiContent .NiiContentLoad .NiiDesc.WithImage {
+	margin-right: 14.5em;
+	position:relative;
+	min-height:10em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiDesc .NiiImg {
+	width: 14em;
+	height: 9em;
+	display: block;
+	background-size: cover;
+	position: absolute;
+	right: -15em;
+	top: 0.5em;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiBy {
+	margin-top: 3em;
+}
+.NiiContentLoad a {
+	color: #555;
+	text-decoration: none;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiButtonSet {
+	text-align: center;
+}
+.NiiService .NiiContent .NiiContentLoad .NiiMore {
+	width: 20em;
+}

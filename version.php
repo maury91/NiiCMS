@@ -1,0 +1,1 @@
+<?php $___cms_version = 0.601; ?>

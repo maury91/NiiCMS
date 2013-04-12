@@ -1,0 +1,1 @@
+<?php$__datab = 'Database Manager';$__name = "Name";$__engine = "Engine";$__row = "Rows";$__siz = "Size";$__col = "Collection";$__empty = "Empty Table";$__exec = "Run Query";$__exe = "Run";$__res = "The query ha been executed";$__insert = "New Entry";$__d_dwn = 'Download a backup of the table';$__edit = 'Edit';$__ins = 'Insert';?>

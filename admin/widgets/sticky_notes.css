@@ -1,0 +1,1 @@
+.sticky_note {	width:20em;	font-size:1.2em;	background:#EEA;	border:1px solid #FFD;	position:fixed;}.sticky_note .mover{	height:2em;	cursor:move;}.sticky_note .text{	background:transparent;	color:#333;	width: 100%;	height: 16em;	font-family: cursive;	border: 0;	padding: 0.5em;	resize: none;}
